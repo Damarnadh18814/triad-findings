@@ -1,20 +1,17 @@
-# TRIAD v2 — Findings Repository
+# TRIAD v2 — Findings repository
 
-Auto-published findings from **TRIAD**, an adversarial verified-reasoning system.
+Auto-published by [TRIAD](https://github.com/) at 2026-05-31T03:14:03.114594.
 
-Every entry in this repository was produced by a four-model debate
-(Proposer → Challenger → Judge, with a Phi-4 blind-spot Auditor), passed
-atomic web-verification, survived a sycophancy role-switch test, and was
-ruled `CONFIRMED` by an independent Judge model.
-
-This repository is written to automatically by TRIAD's GitHub publishing
-module. Initial commit seeds the `main` branch; subsequent findings arrive
-as pull requests authored by the Judge.
+**Current version**: v0.2.0  
+**Total confirmed entries**: 2  
+**Total sessions**: 0  
+**Last event**: `discovery_batch` at 2026-05-31T03:14:03.109674
 
 ## Layout
 
-- `DISCOVERIES.md` — living research document
+- `DISCOVERIES.md` — living research paper, updated on major events
 - `CHANGELOG.md` — every publish event
-- `knowledge_base/confirmed/{topic}/{entry_id}.{json,md}` — confirmed entries
-- `evidence/{entry_id}/sources.json` — verified sources per entry
-- `meta/system_stats.json` — current system state
+- `knowledge_base/confirmed/{topic}/{entry_id}.{json,md}` — every confirmed entry
+- `evidence/{entry_id}/sources.json` — full verified source list per entry
+- `audits/{audit_id}.json` — blind-spot audit reports
+- `meta/system_stats.json` — current TRIAD system state
