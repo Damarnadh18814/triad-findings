@@ -15,6 +15,13 @@ Each finding below is written up as a short paper rather than dumped as data. Th
 
 A number like 85% isn't a popularity score. It's roughly how much I'd bet the claim is right given what survived the argument. A fact can be perfectly true and still land below 100% if the only sources online phrase it loosely or aren't primary. There's a longer explanation of the method in [notes/how-this-works.md](notes/how-this-works.md).
 
+## The research behind it
+
+Beyond fact-checking, I rebuilt the reasoning techniques this project is supposed to stand on — and actually ran them, rather than just naming them in a design doc:
+
+- **[A real Tiny Recursive Model and six Sakana techniques](research/tiny-recursive-model-and-sakana-techniques.pdf)** — a trained Tiny Recursive Model (Samsung's "Less is More") plus Sakana AI's Evolutionary Model Merge, Text-to-LoRA, Transformer², the Darwin Gödel Machine, AB-MCTS, and The AI Scientist. Seven working miniatures, every number measured on a laptop. &nbsp;·&nbsp; [read the notes](research/README.md)
+- There's also an [appendix paper the AI Scientist wrote about our own model](research/appendix-ai-scientist-generated-paper.md), included verbatim — a machine's write-up of a real experiment it ran.
+
 ---
 
-*Last updated May 31, 2026. Findings are added automatically as the system confirms them.*
+*Last updated June 2026. Findings are added automatically as the system confirms them.*
